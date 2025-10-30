@@ -62,4 +62,5 @@ button:hover {
 
 button:active {
   border: 2px solid #808bad;
+  transform: scale(0.9);
 }
