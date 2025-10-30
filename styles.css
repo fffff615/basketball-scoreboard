@@ -2,7 +2,7 @@
   background-color: #192143;
   width: 500px;
   height: auto;
-  padding: 20px;
+  padding: 10px 50px;
   margin: 0 auto;
   border-radius: 10px;
   display: flex;
@@ -20,6 +20,7 @@ h1 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
+  margin: 0;
 }
 
 @font-face {
