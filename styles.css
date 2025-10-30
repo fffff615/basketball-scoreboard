@@ -1,0 +1,57 @@
+#content-card {
+  background-color: #192143;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-section {
+  padding: 20px 30px;
+}
+
+h1 {
+  color: white;
+  font-family: "Zain", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Digital-7; /* set name */
+  src: url(fonts/digital-7.ttf); /* url of the font */
+}
+
+.score {
+  color: #f84561;
+  background-color: black;
+  padding: 5px;
+  margin: auto 0;
+  text-align: center;
+  font-family: "Digital-7";
+  font-size: 120px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0 0 0;
+  gap: 10px;
+}
+
+button {
+  font-family: "Digital-7";
+  background-color: #192143;
+  border: 1px solid #808BAD;
+  border-radius: 5px;
+  color: #808BAD;
+  padding: 10px;
+  font-size: 40px;
+}
