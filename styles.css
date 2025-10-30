@@ -49,9 +49,17 @@ h1 {
 button {
   font-family: "Digital-7";
   background-color: #192143;
-  border: 1px solid #808BAD;
+  border: 1px solid #808bad;
   border-radius: 5px;
-  color: #808BAD;
+  color: #808bad;
   padding: 10px;
   font-size: 40px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  border: 2px solid #808bad;
 }
